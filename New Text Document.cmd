@@ -1,34 +1,6 @@
-Certainly! Here's a step-by-step guide with headings for activating Windows 11 using KMS client key:
-
-Step 1: Open Command Prompt as Administrator
-
-Click on the Start button, type "cmd" in the search bar.
-Right-click on "Command Prompt" and select "Run as administrator".
-
-Step 2: Install KMS Client Key
-In the Command Prompt window, type the following command to install the KMS client key for Windows 11 Pro:
-
 slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
-
-Replace W269N-WFGWX-YVC9B-4J6C9-T83GX with the appropriate key from the list for your Windows edition if needed.
-
-Step 3: Set KMS Server
-Next, set the KMS server to activate Windows. Type the command:
-
 slmgr /skms kms8.msguides.com
-
-This connects your computer to the KMS server.
-
-Step 4: Activate Windows
-Finally, activate Windows using the command:
-
 slmgr /ato
-
-This command triggers the activation process. If you encounter error 0x80070005, retry the activation command (slmgr /ato) until successful.
-
-Follow these steps in sequence to successfully activate your Windows operating system using a KMS client key and server.
-
-The following is the list of Windows 11 Volume license keys.
 
 Home: TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
 Home N: 3KHY7-WNT83-DGQKR-F7HPR-844BM
